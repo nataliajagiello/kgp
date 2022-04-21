@@ -1,0 +1,695 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "backgroundColor": "#94e7ef",
+          "color": "white",
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "padding": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Korona Gór Polski
+    </Text>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "elevation": 2499,
+            "name": "Rysy",
+            "range": "Tatry",
+          },
+          Object {
+            "elevation": 1725,
+            "name": "Babia Góra",
+            "range": "Beskid Żywiecki",
+          },
+          Object {
+            "elevation": 1603,
+            "name": "Śnieżka",
+            "range": "Karkonosze",
+          },
+          Object {
+            "elevation": 1423,
+            "name": "Śnieżnik",
+            "range": "Masyw Śnieżnika",
+          },
+          Object {
+            "elevation": 1346,
+            "name": "Tarnica",
+            "range": "Bieszczady Zachodnie",
+          },
+          Object {
+            "elevation": 1310,
+            "name": "Turbacz",
+            "range": "Gorce",
+          },
+          Object {
+            "elevation": 1266,
+            "name": "Radziejowa",
+            "range": "Beskid Sądecki",
+          },
+          Object {
+            "elevation": 1257,
+            "name": "Skrzyczne",
+            "range": "Beskid Śląski",
+          },
+          Object {
+            "elevation": 1171,
+            "name": "Mogielica",
+            "range": "Beskid Wyspowy",
+          },
+          Object {
+            "elevation": 1126,
+            "name": "Wysoka Kopa",
+            "range": "Góry Izerskie",
+          },
+          Object {
+            "elevation": 1106,
+            "name": "Rudawiec",
+            "range": "Góry Bialskie",
+          },
+          Object {
+            "elevation": 1084,
+            "name": "Orlica",
+            "range": "Góry Orlickie",
+          },
+          Object {
+            "elevation": 1050,
+            "name": "Wysoka",
+            "range": "Pieniny",
+          },
+          Object {
+            "elevation": 1015,
+            "name": "Wielka Sowa",
+            "range": "Góry Sowie",
+          },
+          Object {
+            "elevation": 997,
+            "name": "Lackowa",
+            "range": "Beskid Niski",
+          },
+          Object {
+            "elevation": 989,
+            "name": "Kowadło",
+            "range": "Góry Złote",
+          },
+          Object {
+            "elevation": 977,
+            "name": "Jagodna",
+            "range": "Góry Bystrzyckie",
+          },
+          Object {
+            "elevation": 945,
+            "name": "Skalnik",
+            "range": "Rudawy Janowickie",
+          },
+          Object {
+            "elevation": 936,
+            "name": "Waligóra",
+            "range": "Góry Kamienne",
+          },
+          Object {
+            "elevation": 933,
+            "name": "Czupel",
+            "range": "Beskid Mały",
+          },
+          Object {
+            "elevation": 919,
+            "name": "Szczeliniec Wielki",
+            "range": "Góry Stołowe",
+          },
+          Object {
+            "elevation": 904,
+            "name": "Lubomir",
+            "range": "Beskid Makowski",
+          },
+          Object {
+            "elevation": 889,
+            "name": "Biskupia Kopa",
+            "range": "Góry Opawskie",
+          },
+          Object {
+            "elevation": 850,
+            "name": "Chełmiec",
+            "range": "Góry Wałbrzyskie",
+          },
+          Object {
+            "elevation": 765,
+            "name": "Kłodzka Góra",
+            "range": "Góry Bardzkie",
+          },
+          Object {
+            "elevation": 724,
+            "name": "Skopiec",
+            "range": "Góry Kaczawskie",
+          },
+          Object {
+            "elevation": 718,
+            "name": "Ślęża",
+            "range": "Masyw Ślęży",
+          },
+          Object {
+            "elevation": 614,
+            "name": "Łysica",
+            "range": "Góry Świętokrzyskie",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Tatry
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rysy
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              2499
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Beskid Żywiecki
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Babia Góra
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1725
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Karkonosze
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Śnieżka
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1603
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Masyw Śnieżnika
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Śnieżnik
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1423
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Bieszczady Zachodnie
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Tarnica
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1346
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Gorce
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Turbacz
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1310
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Beskid Sądecki
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Radziejowa
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1266
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Beskid Śląski
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Skrzyczne
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1257
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Beskid Wyspowy
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Mogielica
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1171
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "borderWidth": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Góry Izerskie
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Wysoka Kopa
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1126
+               m n.p.m.
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;
