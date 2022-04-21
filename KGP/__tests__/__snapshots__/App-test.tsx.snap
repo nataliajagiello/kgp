@@ -3,8 +3,19 @@
 exports[`renders correctly 1`] = `
 <RCTSafeAreaView
   emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
 >
-  <View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
     <Text
       style={
         Object {

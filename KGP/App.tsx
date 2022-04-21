@@ -4,7 +4,7 @@ import HomeScreen from './src/components/HomeScreen';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <HomeScreen />
     </SafeAreaView>
   );

@@ -4,6 +4,9 @@ import {mountains} from '../data/mountains';
 import MountainTile from './MountainTile';
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
   title: {
     fontSize: 30,
     textAlign: 'center',
@@ -16,7 +19,7 @@ const styles = StyleSheet.create({
 
 const HomeScreen = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>Korona Gór Polski</Text>
       <FlatList
         data={mountains}
