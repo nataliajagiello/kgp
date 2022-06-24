@@ -1,4 +1,5 @@
 type Mountain = {
+  id: number;
   name: string;
   range: string;
   elevation: number;

@@ -12,15 +12,17 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     padding: 10,
-    backgroundColor: '#94e7ef',
+    backgroundColor: '#2E4053',
     color: 'white',
   },
 });
 
+const title = 'Korona Gór Polski';
+
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Korona Gór Polski</Text>
+      <Text style={styles.title}>{title}</Text>
       <FlatList
         data={mountains}
         renderItem={itemInfo => <MountainTile mountain={itemInfo.item} />}

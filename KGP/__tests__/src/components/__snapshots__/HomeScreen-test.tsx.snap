@@ -11,7 +11,7 @@ exports[`renders correctly 1`] = `
   <Text
     style={
       Object {
-        "backgroundColor": "#94e7ef",
+        "backgroundColor": "#2E4053",
         "color": "white",
         "fontSize": 30,
         "fontWeight": "bold",
@@ -27,141 +27,169 @@ exports[`renders correctly 1`] = `
       Array [
         Object {
           "elevation": 2499,
+          "id": 1,
           "name": "Rysy",
           "range": "Tatry",
         },
         Object {
           "elevation": 1725,
+          "id": 2,
           "name": "Babia Góra",
           "range": "Beskid Żywiecki",
         },
         Object {
           "elevation": 1603,
+          "id": 3,
           "name": "Śnieżka",
           "range": "Karkonosze",
         },
         Object {
           "elevation": 1423,
+          "id": 4,
           "name": "Śnieżnik",
           "range": "Masyw Śnieżnika",
         },
         Object {
           "elevation": 1346,
+          "id": 5,
           "name": "Tarnica",
           "range": "Bieszczady Zachodnie",
         },
         Object {
           "elevation": 1310,
+          "id": 6,
           "name": "Turbacz",
           "range": "Gorce",
         },
         Object {
           "elevation": 1266,
+          "id": 7,
           "name": "Radziejowa",
           "range": "Beskid Sądecki",
         },
         Object {
           "elevation": 1257,
+          "id": 8,
           "name": "Skrzyczne",
           "range": "Beskid Śląski",
         },
         Object {
           "elevation": 1171,
+          "id": 9,
           "name": "Mogielica",
           "range": "Beskid Wyspowy",
         },
         Object {
           "elevation": 1126,
+          "id": 10,
           "name": "Wysoka Kopa",
           "range": "Góry Izerskie",
         },
         Object {
           "elevation": 1106,
+          "id": 11,
           "name": "Rudawiec",
           "range": "Góry Bialskie",
         },
         Object {
           "elevation": 1084,
+          "id": 12,
           "name": "Orlica",
           "range": "Góry Orlickie",
         },
         Object {
           "elevation": 1050,
+          "id": 13,
           "name": "Wysoka",
           "range": "Pieniny",
         },
         Object {
           "elevation": 1015,
+          "id": 14,
           "name": "Wielka Sowa",
           "range": "Góry Sowie",
         },
         Object {
           "elevation": 997,
+          "id": 15,
           "name": "Lackowa",
           "range": "Beskid Niski",
         },
         Object {
           "elevation": 989,
+          "id": 16,
           "name": "Kowadło",
           "range": "Góry Złote",
         },
         Object {
           "elevation": 977,
+          "id": 17,
           "name": "Jagodna",
           "range": "Góry Bystrzyckie",
         },
         Object {
           "elevation": 945,
+          "id": 18,
           "name": "Skalnik",
           "range": "Rudawy Janowickie",
         },
         Object {
           "elevation": 936,
+          "id": 19,
           "name": "Waligóra",
           "range": "Góry Kamienne",
         },
         Object {
           "elevation": 933,
+          "id": 20,
           "name": "Czupel",
           "range": "Beskid Mały",
         },
         Object {
           "elevation": 919,
+          "id": 21,
           "name": "Szczeliniec Wielki",
           "range": "Góry Stołowe",
         },
         Object {
           "elevation": 904,
+          "id": 22,
           "name": "Lubomir",
           "range": "Beskid Makowski",
         },
         Object {
           "elevation": 889,
+          "id": 23,
           "name": "Biskupia Kopa",
           "range": "Góry Opawskie",
         },
         Object {
           "elevation": 850,
+          "id": 24,
           "name": "Chełmiec",
           "range": "Góry Wałbrzyskie",
         },
         Object {
           "elevation": 765,
+          "id": 25,
           "name": "Kłodzka Góra",
           "range": "Góry Bardzkie",
         },
         Object {
           "elevation": 724,
+          "id": 26,
           "name": "Skopiec",
           "range": "Góry Kaczawskie",
         },
         Object {
           "elevation": 718,
+          "id": 27,
           "name": "Ślęża",
           "range": "Masyw Ślęży",
         },
         Object {
           "elevation": 614,
+          "id": 28,
           "name": "Łysica",
           "range": "Góry Świętokrzyskie",
         },
@@ -192,46 +220,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Tatry
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Rysy
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            2499
-             m n.p.m.
-          </Text>
+            >
+              Tatry
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rysy
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              2499
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -242,46 +320,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Beskid Żywiecki
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Babia Góra
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1725
-             m n.p.m.
-          </Text>
+            >
+              Beskid Żywiecki
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Babia Góra
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1725
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -292,46 +420,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Karkonosze
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Śnieżka
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1603
-             m n.p.m.
-          </Text>
+            >
+              Karkonosze
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Śnieżka
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1603
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -342,46 +520,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Masyw Śnieżnika
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Śnieżnik
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1423
-             m n.p.m.
-          </Text>
+            >
+              Masyw Śnieżnika
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Śnieżnik
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1423
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -392,46 +620,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Bieszczady Zachodnie
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Tarnica
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1346
-             m n.p.m.
-          </Text>
+            >
+              Bieszczady Zachodnie
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Tarnica
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1346
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -442,46 +720,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Gorce
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Turbacz
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1310
-             m n.p.m.
-          </Text>
+            >
+              Gorce
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Turbacz
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1310
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -492,46 +820,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Beskid Sądecki
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Radziejowa
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1266
-             m n.p.m.
-          </Text>
+            >
+              Beskid Sądecki
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Radziejowa
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1266
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -542,46 +920,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Beskid Śląski
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Skrzyczne
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1257
-             m n.p.m.
-          </Text>
+            >
+              Beskid Śląski
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Skrzyczne
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1257
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -592,46 +1020,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Beskid Wyspowy
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Mogielica
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1171
-             m n.p.m.
-          </Text>
+            >
+              Beskid Wyspowy
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Mogielica
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1171
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View
@@ -642,46 +1120,96 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "borderWidth": 1,
+              "flexDirection": "row",
             }
           }
         >
-          <Text
+          <View
             style={
               Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "alignItems": "center",
+                "justifyContent": "center",
               }
             }
           >
-            Góry Izerskie
-          </Text>
-          <Text
+            <View
+              accessibilityRole="checkbox"
+              accessibilityState={
+                Object {
+                  "checked": false,
+                  "disabled": false,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "text": "off",
+                }
+              }
+              accessible={true}
+              pointerEvents="auto"
+            >
+              <RNCCheckbox
+                forwardedRef={null}
+                onValueChange={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 32,
+                      "width": 32,
+                    },
+                    undefined,
+                  ]
+                }
+                value={false}
+              />
+            </View>
+          </View>
+          <View
             style={
               Object {
-                "fontSize": 25,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+                "flex": 10,
               }
             }
           >
-            Wysoka Kopa
-          </Text>
-          <Text
-            style={
-              Object {
-                "fontSize": 20,
-                "fontWeight": "bold",
-                "margin": 5,
-                "textAlign": "center",
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
               }
-            }
-          >
-            1126
-             m n.p.m.
-          </Text>
+            >
+              Góry Izerskie
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 25,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Wysoka Kopa
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              1126
+               m n.p.m.
+            </Text>
+          </View>
         </View>
       </View>
       <View

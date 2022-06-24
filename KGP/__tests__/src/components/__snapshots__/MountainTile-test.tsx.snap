@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderWidth": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityRole="checkbox"
+      accessibilityState={
+        Object {
+          "checked": false,
+          "disabled": false,
+        }
+      }
+      accessibilityValue={
+        Object {
+          "text": "off",
+        }
+      }
+      accessible={true}
+      pointerEvents="auto"
+    >
+      <RNCCheckbox
+        forwardedRef={null}
+        onValueChange={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 32,
+              "width": 32,
+            },
+            undefined,
+          ]
+        }
+        value={false}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "margin": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      Pasmo
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 25,
+          "fontWeight": "bold",
+          "margin": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      Super Górka
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "margin": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      1200
+       m n.p.m.
+    </Text>
+  </View>
+</View>
+`;
