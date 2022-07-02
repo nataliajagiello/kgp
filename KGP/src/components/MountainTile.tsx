@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import CheckBox from '@react-native-community/checkbox';
 import Mountain from '../models/Mountain';
@@ -25,35 +25,38 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dataContainer: {flex: 10},
 });
 
-const MountainTile = ({mountain}: {mountain: Mountain}) => {
-  const [isSelected, setSelection] = useState(false);
-
-  useEffect(() => {
-    const getValue = async () => {
-      const checkBoxValue: string =
-        (await AsyncStorage.getItem(`${mountain.id}`)) ?? 'false';
-      setSelection(JSON.parse(checkBoxValue));
-    };
-    getValue();
-  }, [mountain.id]);
+const MountainTile = ({
+  mountain,
+  updateMountain,
+}: {
+  mountain: Mountain;
+  updateMountain: Function;
+}) => {
+  const [isSelected, setSelection] = useState(mountain.concquered);
 
   const handleCheckboxChange = async (value: boolean) => {
     setSelection(value);
     await AsyncStorage.setItem(`${mountain.id}`, `${value}`);
+    mountain.concquered = value;
+    updateMountain(mountain);
   };
 
   return (
     <View style={styles.tile}>
       <View style={styles.checkboxContainer}>
         <CheckBox
+          testID={`m-${mountain.id.toString()}`}
           value={isSelected}
-          onValueChange={handleCheckboxChange}
+          onValueChange={(value: boolean) => {
+            handleCheckboxChange(value);
+          }}
           // style={styles.checkbox}
         />
       </View>
-      <View style={{flex: 10}}>
+      <View style={styles.dataContainer}>
         <Text style={styles.text}>{mountain.range}</Text>
         <Text style={styles.mainText}>{mountain.name}</Text>
         <Text style={styles.text}>{mountain.elevation} m n.p.m.</Text>
