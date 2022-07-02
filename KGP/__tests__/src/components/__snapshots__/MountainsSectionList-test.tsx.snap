@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "data": Array [
+          Object {
+            "concquered": true,
+            "elevation": 1300,
+            "id": 2,
+            "name": "Super Górka Dwa",
+            "range": "Pasmo Dwa",
+          },
+        ],
+        "sectionTitle": "Zdobyte 1/2",
+      },
+      Object {
+        "data": Array [
+          Object {
+            "elevation": 1200,
+            "id": 1,
+            "name": "Super Górka",
+            "range": "Pasmo",
+          },
+        ],
+        "sectionTitle": "Do zdobycia 1/2",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={
+    Array [
+      0,
+      3,
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#2E4053",
+            "color": "white",
+            "fontSize": 25,
+            "fontWeight": "bold",
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Zdobyte 1/2
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "borderWidth": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessibilityRole="checkbox"
+            accessibilityState={
+              Object {
+                "checked": true,
+                "disabled": false,
+              }
+            }
+            accessibilityValue={
+              Object {
+                "text": "on",
+              }
+            }
+            accessible={true}
+            pointerEvents="auto"
+            testID="m-2"
+          >
+            <RNCCheckbox
+              forwardedRef={null}
+              onValueChange={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 32,
+                    "width": 32,
+                  },
+                  undefined,
+                ]
+              }
+              value={true}
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "margin": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Pasmo Dwa
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 25,
+                "fontWeight": "bold",
+                "margin": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Super Górka Dwa
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "margin": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            1300
+             m n.p.m.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    />
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": "#2E4053",
+            "color": "white",
+            "fontSize": 25,
+            "fontWeight": "bold",
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Do zdobycia 1/2
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "borderWidth": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessibilityRole="checkbox"
+            accessibilityState={
+              Object {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            accessibilityValue={
+              Object {
+                "text": "off",
+              }
+            }
+            accessible={true}
+            pointerEvents="auto"
+            testID="m-1"
+          >
+            <RNCCheckbox
+              forwardedRef={null}
+              onValueChange={[Function]}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 32,
+                    "width": 32,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "margin": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Pasmo
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 25,
+                "fontWeight": "bold",
+                "margin": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Super Górka
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "margin": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            1200
+             m n.p.m.
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    />
+  </View>
+</RCTScrollView>
+`;

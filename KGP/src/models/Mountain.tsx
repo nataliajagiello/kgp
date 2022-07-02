@@ -3,6 +3,7 @@ type Mountain = {
   name: string;
   range: string;
   elevation: number;
+  concquered?: boolean;
 };
 
 export default Mountain;

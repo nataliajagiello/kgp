@@ -1,6 +1,6 @@
 import Mountain from '../models/Mountain';
 
-const mountains: Mountain[] = [
+const mountainsData: Mountain[] = [
   {id: 1, name: 'Rysy', range: 'Tatry', elevation: 2499},
   {id: 2, name: 'Babia Góra', range: 'Beskid Żywiecki', elevation: 1725},
   {id: 3, name: 'Śnieżka', range: 'Karkonosze', elevation: 1603},
@@ -31,4 +31,4 @@ const mountains: Mountain[] = [
   {id: 28, name: 'Łysica', range: 'Góry Świętokrzyskie', elevation: 614},
 ];
 
-export {mountains};
+export {mountainsData};

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`HomeScreen renders correctly 1`] = `
 <View
   style={
     Object {
@@ -26,172 +26,209 @@ exports[`renders correctly 1`] = `
     data={
       Array [
         Object {
-          "elevation": 2499,
-          "id": 1,
-          "name": "Rysy",
-          "range": "Tatry",
+          "data": Array [],
+          "sectionTitle": "Zdobyte 0/28",
         },
         Object {
-          "elevation": 1725,
-          "id": 2,
-          "name": "Babia Góra",
-          "range": "Beskid Żywiecki",
-        },
-        Object {
-          "elevation": 1603,
-          "id": 3,
-          "name": "Śnieżka",
-          "range": "Karkonosze",
-        },
-        Object {
-          "elevation": 1423,
-          "id": 4,
-          "name": "Śnieżnik",
-          "range": "Masyw Śnieżnika",
-        },
-        Object {
-          "elevation": 1346,
-          "id": 5,
-          "name": "Tarnica",
-          "range": "Bieszczady Zachodnie",
-        },
-        Object {
-          "elevation": 1310,
-          "id": 6,
-          "name": "Turbacz",
-          "range": "Gorce",
-        },
-        Object {
-          "elevation": 1266,
-          "id": 7,
-          "name": "Radziejowa",
-          "range": "Beskid Sądecki",
-        },
-        Object {
-          "elevation": 1257,
-          "id": 8,
-          "name": "Skrzyczne",
-          "range": "Beskid Śląski",
-        },
-        Object {
-          "elevation": 1171,
-          "id": 9,
-          "name": "Mogielica",
-          "range": "Beskid Wyspowy",
-        },
-        Object {
-          "elevation": 1126,
-          "id": 10,
-          "name": "Wysoka Kopa",
-          "range": "Góry Izerskie",
-        },
-        Object {
-          "elevation": 1106,
-          "id": 11,
-          "name": "Rudawiec",
-          "range": "Góry Bialskie",
-        },
-        Object {
-          "elevation": 1084,
-          "id": 12,
-          "name": "Orlica",
-          "range": "Góry Orlickie",
-        },
-        Object {
-          "elevation": 1050,
-          "id": 13,
-          "name": "Wysoka",
-          "range": "Pieniny",
-        },
-        Object {
-          "elevation": 1015,
-          "id": 14,
-          "name": "Wielka Sowa",
-          "range": "Góry Sowie",
-        },
-        Object {
-          "elevation": 997,
-          "id": 15,
-          "name": "Lackowa",
-          "range": "Beskid Niski",
-        },
-        Object {
-          "elevation": 989,
-          "id": 16,
-          "name": "Kowadło",
-          "range": "Góry Złote",
-        },
-        Object {
-          "elevation": 977,
-          "id": 17,
-          "name": "Jagodna",
-          "range": "Góry Bystrzyckie",
-        },
-        Object {
-          "elevation": 945,
-          "id": 18,
-          "name": "Skalnik",
-          "range": "Rudawy Janowickie",
-        },
-        Object {
-          "elevation": 936,
-          "id": 19,
-          "name": "Waligóra",
-          "range": "Góry Kamienne",
-        },
-        Object {
-          "elevation": 933,
-          "id": 20,
-          "name": "Czupel",
-          "range": "Beskid Mały",
-        },
-        Object {
-          "elevation": 919,
-          "id": 21,
-          "name": "Szczeliniec Wielki",
-          "range": "Góry Stołowe",
-        },
-        Object {
-          "elevation": 904,
-          "id": 22,
-          "name": "Lubomir",
-          "range": "Beskid Makowski",
-        },
-        Object {
-          "elevation": 889,
-          "id": 23,
-          "name": "Biskupia Kopa",
-          "range": "Góry Opawskie",
-        },
-        Object {
-          "elevation": 850,
-          "id": 24,
-          "name": "Chełmiec",
-          "range": "Góry Wałbrzyskie",
-        },
-        Object {
-          "elevation": 765,
-          "id": 25,
-          "name": "Kłodzka Góra",
-          "range": "Góry Bardzkie",
-        },
-        Object {
-          "elevation": 724,
-          "id": 26,
-          "name": "Skopiec",
-          "range": "Góry Kaczawskie",
-        },
-        Object {
-          "elevation": 718,
-          "id": 27,
-          "name": "Ślęża",
-          "range": "Masyw Ślęży",
-        },
-        Object {
-          "elevation": 614,
-          "id": 28,
-          "name": "Łysica",
-          "range": "Góry Świętokrzyskie",
+          "data": Array [
+            Object {
+              "concquered": false,
+              "elevation": 2499,
+              "id": 1,
+              "name": "Rysy",
+              "range": "Tatry",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1725,
+              "id": 2,
+              "name": "Babia Góra",
+              "range": "Beskid Żywiecki",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1603,
+              "id": 3,
+              "name": "Śnieżka",
+              "range": "Karkonosze",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1423,
+              "id": 4,
+              "name": "Śnieżnik",
+              "range": "Masyw Śnieżnika",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1346,
+              "id": 5,
+              "name": "Tarnica",
+              "range": "Bieszczady Zachodnie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1310,
+              "id": 6,
+              "name": "Turbacz",
+              "range": "Gorce",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1266,
+              "id": 7,
+              "name": "Radziejowa",
+              "range": "Beskid Sądecki",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1257,
+              "id": 8,
+              "name": "Skrzyczne",
+              "range": "Beskid Śląski",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1171,
+              "id": 9,
+              "name": "Mogielica",
+              "range": "Beskid Wyspowy",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1126,
+              "id": 10,
+              "name": "Wysoka Kopa",
+              "range": "Góry Izerskie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1106,
+              "id": 11,
+              "name": "Rudawiec",
+              "range": "Góry Bialskie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1084,
+              "id": 12,
+              "name": "Orlica",
+              "range": "Góry Orlickie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1050,
+              "id": 13,
+              "name": "Wysoka",
+              "range": "Pieniny",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 1015,
+              "id": 14,
+              "name": "Wielka Sowa",
+              "range": "Góry Sowie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 997,
+              "id": 15,
+              "name": "Lackowa",
+              "range": "Beskid Niski",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 989,
+              "id": 16,
+              "name": "Kowadło",
+              "range": "Góry Złote",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 977,
+              "id": 17,
+              "name": "Jagodna",
+              "range": "Góry Bystrzyckie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 945,
+              "id": 18,
+              "name": "Skalnik",
+              "range": "Rudawy Janowickie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 936,
+              "id": 19,
+              "name": "Waligóra",
+              "range": "Góry Kamienne",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 933,
+              "id": 20,
+              "name": "Czupel",
+              "range": "Beskid Mały",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 919,
+              "id": 21,
+              "name": "Szczeliniec Wielki",
+              "range": "Góry Stołowe",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 904,
+              "id": 22,
+              "name": "Lubomir",
+              "range": "Beskid Makowski",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 889,
+              "id": 23,
+              "name": "Biskupia Kopa",
+              "range": "Góry Opawskie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 850,
+              "id": 24,
+              "name": "Chełmiec",
+              "range": "Góry Wałbrzyskie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 765,
+              "id": 25,
+              "name": "Kłodzka Góra",
+              "range": "Góry Bardzkie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 724,
+              "id": 26,
+              "name": "Skopiec",
+              "range": "Góry Kaczawskie",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 718,
+              "id": 27,
+              "name": "Ślęża",
+              "range": "Masyw Ślęży",
+            },
+            Object {
+              "concquered": false,
+              "elevation": 614,
+              "id": 28,
+              "name": "Łysica",
+              "range": "Góry Świętokrzyskie",
+            },
+          ],
+          "sectionTitle": "Do zdobycia 28/28",
         },
       ]
     }
@@ -205,13 +242,58 @@ exports[`renders correctly 1`] = `
     onScroll={[Function]}
     onScrollBeginDrag={[Function]}
     onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    viewabilityConfigCallbackPairs={Array []}
+    stickyHeaderIndices={
+      Array [
+        0,
+        2,
+      ]
+    }
   >
     <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#2E4053",
+              "color": "white",
+              "fontSize": 25,
+              "fontWeight": "bold",
+              "padding": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          Zdobyte 0/28
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      />
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "backgroundColor": "#2E4053",
+              "color": "white",
+              "fontSize": 25,
+              "fontWeight": "bold",
+              "padding": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          Do zdobycia 28/28
+        </Text>
+      </View>
       <View
         onLayout={[Function]}
         style={null}
@@ -247,6 +329,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-1"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -347,6 +430,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-2"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -447,6 +531,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-3"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -547,6 +632,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-4"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -647,6 +733,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-5"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -747,6 +834,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-6"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -847,6 +935,7 @@ exports[`renders correctly 1`] = `
               }
               accessible={true}
               pointerEvents="auto"
+              testID="m-7"
             >
               <RNCCheckbox
                 forwardedRef={null}
@@ -907,306 +996,6 @@ exports[`renders correctly 1`] = `
               }
             >
               1266
-               m n.p.m.
-            </Text>
-          </View>
-        </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            Object {
-              "borderWidth": 1,
-              "flexDirection": "row",
-            }
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "justifyContent": "center",
-              }
-            }
-          >
-            <View
-              accessibilityRole="checkbox"
-              accessibilityState={
-                Object {
-                  "checked": false,
-                  "disabled": false,
-                }
-              }
-              accessibilityValue={
-                Object {
-                  "text": "off",
-                }
-              }
-              accessible={true}
-              pointerEvents="auto"
-            >
-              <RNCCheckbox
-                forwardedRef={null}
-                onValueChange={[Function]}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 32,
-                      "width": 32,
-                    },
-                    undefined,
-                  ]
-                }
-                value={false}
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flex": 10,
-              }
-            }
-          >
-            <Text
-              style={
-                Object {
-                  "fontSize": 20,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              Beskid Śląski
-            </Text>
-            <Text
-              style={
-                Object {
-                  "fontSize": 25,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              Skrzyczne
-            </Text>
-            <Text
-              style={
-                Object {
-                  "fontSize": 20,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              1257
-               m n.p.m.
-            </Text>
-          </View>
-        </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            Object {
-              "borderWidth": 1,
-              "flexDirection": "row",
-            }
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "justifyContent": "center",
-              }
-            }
-          >
-            <View
-              accessibilityRole="checkbox"
-              accessibilityState={
-                Object {
-                  "checked": false,
-                  "disabled": false,
-                }
-              }
-              accessibilityValue={
-                Object {
-                  "text": "off",
-                }
-              }
-              accessible={true}
-              pointerEvents="auto"
-            >
-              <RNCCheckbox
-                forwardedRef={null}
-                onValueChange={[Function]}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 32,
-                      "width": 32,
-                    },
-                    undefined,
-                  ]
-                }
-                value={false}
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flex": 10,
-              }
-            }
-          >
-            <Text
-              style={
-                Object {
-                  "fontSize": 20,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              Beskid Wyspowy
-            </Text>
-            <Text
-              style={
-                Object {
-                  "fontSize": 25,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              Mogielica
-            </Text>
-            <Text
-              style={
-                Object {
-                  "fontSize": 20,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              1171
-               m n.p.m.
-            </Text>
-          </View>
-        </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            Object {
-              "borderWidth": 1,
-              "flexDirection": "row",
-            }
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "justifyContent": "center",
-              }
-            }
-          >
-            <View
-              accessibilityRole="checkbox"
-              accessibilityState={
-                Object {
-                  "checked": false,
-                  "disabled": false,
-                }
-              }
-              accessibilityValue={
-                Object {
-                  "text": "off",
-                }
-              }
-              accessible={true}
-              pointerEvents="auto"
-            >
-              <RNCCheckbox
-                forwardedRef={null}
-                onValueChange={[Function]}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 32,
-                      "width": 32,
-                    },
-                    undefined,
-                  ]
-                }
-                value={false}
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flex": 10,
-              }
-            }
-          >
-            <Text
-              style={
-                Object {
-                  "fontSize": 20,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              Góry Izerskie
-            </Text>
-            <Text
-              style={
-                Object {
-                  "fontSize": 25,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              Wysoka Kopa
-            </Text>
-            <Text
-              style={
-                Object {
-                  "fontSize": 20,
-                  "fontWeight": "bold",
-                  "margin": 5,
-                  "textAlign": "center",
-                }
-              }
-            >
-              1126
                m n.p.m.
             </Text>
           </View>
