@@ -341,7 +341,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}
@@ -442,7 +452,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}
@@ -543,7 +563,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}
@@ -644,7 +674,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}
@@ -745,7 +785,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}
@@ -846,7 +896,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}
@@ -947,7 +1007,17 @@ exports[`HomeScreen renders correctly 1`] = `
                       "height": 32,
                       "width": 32,
                     },
-                    undefined,
+                    Object {
+                      "margin": 30,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1.5,
+                        },
+                        Object {
+                          "scaleY": 1.5,
+                        },
+                      ],
+                    },
                   ]
                 }
                 value={false}

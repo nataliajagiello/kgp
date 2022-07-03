@@ -25,6 +25,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  checkbox: {
+    transform: [{scaleX: 1.5}, {scaleY: 1.5}],
+    margin: 30,
+  },
   dataContainer: {flex: 10},
 });
 
@@ -53,7 +57,7 @@ const MountainTile = ({
           onValueChange={(value: boolean) => {
             handleCheckboxChange(value);
           }}
-          // style={styles.checkbox}
+          style={styles.checkbox}
         />
       </View>
       <View style={styles.dataContainer}>

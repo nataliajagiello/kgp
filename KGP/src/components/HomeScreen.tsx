@@ -11,7 +11,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    color: colors.main,
   },
   container: {
     flex: 1,
@@ -59,7 +58,11 @@ const HomeScreen = () => {
           />
         </>
       ) : (
-        <ActivityIndicator size="large" style={styles.activityIndicator} />
+        <ActivityIndicator
+          size={60}
+          color={colors.main}
+          style={styles.activityIndicator}
+        />
       )}
     </View>
   );
