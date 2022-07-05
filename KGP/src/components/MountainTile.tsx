@@ -6,6 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import DateTimePicker, {
   DateTimePickerEvent,
 } from '@react-native-community/datetimepicker';
+import {formatDate} from '../helpers/dateHelpers';
 
 const styles = StyleSheet.create({
   tile: {
@@ -99,7 +100,11 @@ const MountainTile = ({
         />
       </View>
       <View style={styles.dataContainer}>
-        <Text style={styles.text}>{mountain?.date?.toLocaleDateString()}</Text>
+        {mountain?.concquered && mountain?.date && (
+          <Text testID="m-date" style={styles.text}>
+            {formatDate(mountain.date)}
+          </Text>
+        )}
         <Text style={styles.text}>{mountain.range}</Text>
         <Text style={styles.mainText}>{mountain.name}</Text>
         <Text style={styles.text}>{mountain.elevation} m n.p.m.</Text>

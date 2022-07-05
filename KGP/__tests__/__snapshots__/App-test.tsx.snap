@@ -411,16 +411,6 @@ exports[`renders correctly 1`] = `
                     "textAlign": "center",
                   }
                 }
-              />
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
               >
                 Tatry
               </Text>
@@ -524,16 +514,6 @@ exports[`renders correctly 1`] = `
                 }
               }
             >
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
-              />
               <Text
                 style={
                   Object {
@@ -655,16 +635,6 @@ exports[`renders correctly 1`] = `
                     "textAlign": "center",
                   }
                 }
-              />
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
               >
                 Karkonosze
               </Text>
@@ -768,16 +738,6 @@ exports[`renders correctly 1`] = `
                 }
               }
             >
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
-              />
               <Text
                 style={
                   Object {
@@ -899,16 +859,6 @@ exports[`renders correctly 1`] = `
                     "textAlign": "center",
                   }
                 }
-              />
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
               >
                 Bieszczady Zachodnie
               </Text>
@@ -1021,16 +971,6 @@ exports[`renders correctly 1`] = `
                     "textAlign": "center",
                   }
                 }
-              />
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
               >
                 Gorce
               </Text>
@@ -1134,16 +1074,6 @@ exports[`renders correctly 1`] = `
                 }
               }
             >
-              <Text
-                style={
-                  Object {
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "margin": 5,
-                    "textAlign": "center",
-                  }
-                }
-              />
               <Text
                 style={
                   Object {

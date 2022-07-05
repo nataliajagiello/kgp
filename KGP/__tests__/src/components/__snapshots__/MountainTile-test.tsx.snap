@@ -77,16 +77,6 @@ exports[`renders correctly 1`] = `
           "textAlign": "center",
         }
       }
-    />
-    <Text
-      style={
-        Object {
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "margin": 5,
-          "textAlign": "center",
-        }
-      }
     >
       Pasmo
     </Text>

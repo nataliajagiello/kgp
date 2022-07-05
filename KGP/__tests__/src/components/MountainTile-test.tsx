@@ -14,6 +14,16 @@ const mountain: Mountain = {
   name: 'Super Górka',
   range: 'Pasmo',
 };
+
+const concqueredMountain: Mountain = {
+  id: 1,
+  elevation: 1200,
+  name: 'Super Górka',
+  range: 'Pasmo',
+  date: new Date('Wed Oct 18 2017 12:41:34 GMT+0000 (UTC)'),
+  concquered: true,
+};
+
 const updateMountain = jest.fn();
 
 it('renders correctly', async () => {
@@ -32,6 +42,36 @@ it('renders mountain data', async () => {
   expect(getByText('Pasmo')).toBeTruthy();
   expect(getByText('Super Górka')).toBeTruthy();
   expect(getByText('1200 m n.p.m.')).toBeTruthy();
+});
+
+it('renders date', async () => {
+  const {findByText} = render(
+    <MountainTile
+      mountain={concqueredMountain}
+      updateMountain={updateMountain}
+    />,
+  );
+
+  expect(await findByText('18.10.2017')).toBeTruthy();
+});
+
+it('does not render date if peak not concquered', async () => {
+  const notConcqueredMountain: Mountain = {
+    id: 1,
+    elevation: 1200,
+    name: 'Super Górka',
+    range: 'Pasmo',
+    date: new Date('Wed Oct 18 2017 12:41:34 GMT+0000 (UTC)'),
+    concquered: false,
+  };
+  const {queryByTestId} = render(
+    <MountainTile
+      mountain={notConcqueredMountain}
+      updateMountain={updateMountain}
+    />,
+  );
+
+  expect(queryByTestId('m-date')).toBeFalsy();
 });
 
 test('on checkbox click it shows calendar', async () => {
