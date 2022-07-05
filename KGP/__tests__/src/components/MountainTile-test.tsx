@@ -6,6 +6,7 @@ import {fireEvent, render, act} from '@testing-library/react-native';
 
 import MountainTile from '../../../src/components/MountainTile';
 import Mountain from '../../../src/models/Mountain';
+//import {DateTimePickerEvent} from '@react-native-community/datetimepicker';
 
 const mountain: Mountain = {
   id: 1,
@@ -15,7 +16,7 @@ const mountain: Mountain = {
 };
 const updateMountain = jest.fn();
 
-it('renders correctly', () => {
+it('renders correctly', async () => {
   const tree = renderer
     .create(
       <MountainTile mountain={mountain} updateMountain={updateMountain} />,
@@ -24,7 +25,7 @@ it('renders correctly', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('renders mountain data', () => {
+it('renders mountain data', async () => {
   const {getByText} = render(
     <MountainTile mountain={mountain} updateMountain={updateMountain} />,
   );
@@ -33,11 +34,14 @@ it('renders mountain data', () => {
   expect(getByText('1200 m n.p.m.')).toBeTruthy();
 });
 
-test('on checkbox click it calls updateMountain', async () => {
-  const {getByTestId} = render(
+test('on checkbox click it shows calendar', async () => {
+  const {findByTestId} = render(
     <MountainTile mountain={mountain} updateMountain={updateMountain} />,
   );
-  const checkbox = getByTestId('m-1');
-  await act(() => fireEvent(checkbox, 'onValueChange', true));
-  expect(updateMountain).toBeCalled();
+  const checkbox = await findByTestId('m-1');
+  await act(async () => {
+    fireEvent(checkbox, 'onValueChange', true);
+  });
+  const datepicker = await findByTestId('datePicker');
+  expect(datepicker).toBeTruthy();
 });
