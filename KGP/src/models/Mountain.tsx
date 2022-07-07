@@ -4,6 +4,7 @@ type Mountain = {
   range: string;
   elevation: number;
   concquered?: boolean;
+  date?: Date;
 };
 
 export default Mountain;

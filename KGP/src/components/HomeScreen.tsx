@@ -11,7 +11,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    color: colors.main,
   },
   container: {
     flex: 1,
@@ -38,9 +37,15 @@ const HomeScreen = () => {
       return JSON.parse(checkBoxValue);
     };
 
+    const getConcqueredDate = async (id: number) => {
+      const date = await AsyncStorage.getItem(`date-${id}`);
+      return date ? new Date(date) : undefined;
+    };
+
     const completeData = async () => {
       for (const mountain of mountainsData) {
         mountain.concquered = await isSummitConcquered(mountain.id);
+        mountain.date = await getConcqueredDate(mountain.id);
       }
       setMountains(mountainsData);
     };
@@ -59,7 +64,11 @@ const HomeScreen = () => {
           />
         </>
       ) : (
-        <ActivityIndicator size="large" style={styles.activityIndicator} />
+        <ActivityIndicator
+          size={60}
+          color={colors.main}
+          style={styles.activityIndicator}
+        />
       )}
     </View>
   );
